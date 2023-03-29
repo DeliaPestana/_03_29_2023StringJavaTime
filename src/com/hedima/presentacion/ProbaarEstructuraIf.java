@@ -15,9 +15,21 @@ public class ProbaarEstructuraIf {
         }
         //Declarar una variable y decir si es un número positivo o negativo
 
+        int numero = 10;
+        if (numero > 0) {
+            System.out.println("Es un número positivo");
+        } else {
+            System.out.println("Es un número negativo");
+        }
 
 
         //Declarar una variable y decir si es un número par o impar
+        int numero2 = 10;
+        if (numero2 % 2 == 0) {
+            System.out.println("Es un número par");
+        } else {
+            System.out.println("Es un número impar");
+        }
 
 
     }
